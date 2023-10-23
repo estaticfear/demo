@@ -1,0 +1,15 @@
+<?php
+
+namespace Cmat\{Module};
+
+use Illuminate\Support\Facades\Schema;
+use Cmat\PluginManagement\Abstracts\PluginOperationAbstract;
+
+class Plugin extends PluginOperationAbstract
+{
+    public static function remove()
+    {
+        Schema::dropIfExists('{names}');
+        Schema::dropIfExists('{names}_translations');
+    }
+}

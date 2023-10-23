@@ -1,0 +1,10 @@
+{
+    "id": "cmat/cookie-consent",
+    "name": "Cookie Consent",
+    "namespace": "Cmat\\CookieConsent\\",
+    "provider": "Cmat\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Cookie Consent"
+}

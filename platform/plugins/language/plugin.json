@@ -1,0 +1,10 @@
+{
+    "id": "cmat/language",
+    "name": "Language",
+    "namespace": "Cmat\\Language\\",
+    "provider": "Cmat\\Language\\Providers\\LanguageServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.2.0",
+    "description": "Multi-language features."
+}

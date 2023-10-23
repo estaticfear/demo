@@ -1,0 +1,6 @@
+{
+    "name": "cmat/simple-slider",
+    "description": "Simple slider plugin",
+    "type": "package",
+    "require": {}
+}

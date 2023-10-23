@@ -1,0 +1,25 @@
+{
+    "name": "cmat/widget",
+    "description": "Widget package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Widget\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Widget\\Providers\\WidgetServiceProvider"
+            ],
+            "aliases": {
+                "Widget": "Cmat\\Widget\\Facades\\WidgetFacade",
+                "WidgetGroup": "Cmat\\Widget\\Facades\\WidgetGroupFacade"
+            }
+        }
+    }
+}

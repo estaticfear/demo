@@ -1,0 +1,9 @@
+<?php
+
+namespace Cmat\{Module}\Repositories\Interfaces;
+
+use Cmat\Support\Repositories\Interfaces\RepositoryInterface;
+
+interface {Name}Interface extends RepositoryInterface
+{
+}

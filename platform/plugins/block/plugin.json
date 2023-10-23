@@ -1,0 +1,10 @@
+{
+    "id": "cmat/block",
+    "name": "Block",
+    "namespace": "Cmat\\Block\\",
+    "provider": "Cmat\\Block\\Providers\\BlockServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Manage static block (HTML, Text) on your theme"
+}

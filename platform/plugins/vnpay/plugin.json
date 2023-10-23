@@ -1,0 +1,10 @@
+{
+    "id": "cmat/vnpay",
+    "name": "Vnpay",
+    "namespace": "Cmat\\Vnpay\\",
+    "provider": "Cmat\\Vnpay\\Providers\\VnpayServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module vnpay"
+}

@@ -1,0 +1,21 @@
+.ours-member-items{
+    padding: 0 10px;
+    .ours-member-item{
+        .member-image{
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .member-name{
+            padding-top: 24px;
+            padding-bottom: 16px;
+            margin: 0;
+            color: #1A1919 !important;
+        }
+        .member-job-title{
+            margin: 0;
+            color: #4D4C4C !important;
+            padding-bottom: 8px;
+        }
+    }
+}
+

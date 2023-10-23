@@ -1,0 +1,33 @@
+$color-1st: var(--color-1st);
+$font-1st: var(--primary-font);
+
+:root {
+  --primary: #593a24;
+}
+
+*,
+body {
+  font-family: $font-1st;
+}
+@import 'main';
+@import 'layout';
+@import 'content';
+@import 'icons';
+@import 'custom';
+@import 'widgets';
+@import 'news';
+@import 'image';
+@import 'text';
+@import 'before-footer';
+@import 'about-us';
+@import 'faqs';
+@import 'introduce';
+@import 'ours-member';
+@import 'contact-page';
+@import 'cooperate-with-us';
+@import 'homepage';
+@import 'newspapers';
+@import 'merit-guide';
+@import 'member/login';
+@import 'detail-post';
+@import 'member/dashboard';

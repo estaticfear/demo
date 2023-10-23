@@ -1,0 +1,10 @@
+{
+    "id": "cmat/captcha",
+    "name": "Captcha",
+    "namespace": "Cmat\\Captcha\\",
+    "provider": "Cmat\\Captcha\\Providers\\CaptchaServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Captcha for higher security"
+}

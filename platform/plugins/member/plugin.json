@@ -1,0 +1,10 @@
+{
+    "id": "cmat/member",
+    "name": "Member",
+    "namespace": "Cmat\\Member\\",
+    "provider": "Cmat\\Member\\Providers\\MemberServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Manage member, user register/login"
+}

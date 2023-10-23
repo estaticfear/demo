@@ -1,0 +1,8 @@
+{
+  "name": "cmat/captcha",
+  "description": "Captcha for higher security",
+  "homepage": "https://cmat.com",
+  "require": {
+    "google/recaptcha": "^1.2"
+  }
+}

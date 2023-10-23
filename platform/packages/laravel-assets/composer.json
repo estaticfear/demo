@@ -1,0 +1,50 @@
+{
+    "name": "cmat/assets",
+    "description": "Laravel assets management",
+    "license": "MIT",
+    "keywords": [
+        "cmat",
+        "cmat cms",
+        "cmat platform",
+        "cmat assets"
+    ],
+    "homepage": "https://cmat.com",
+    "authors": [
+        {
+            "name": "COM DEV",
+            "email": "dev@comartek.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3|^8.0|^8.1",
+        "laravel/framework": "^5.6|^6|^7|^8|^9|^10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1|^7.0|^8.0|^9.0|^10.0",
+        "mockery/mockery": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Assets\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cmat\\Assets\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Assets\\Providers\\AssetsServiceProvider"
+            ],
+            "aliases": {
+                "Assets": "Cmat\\Assets\\Facades\\AssetsFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}

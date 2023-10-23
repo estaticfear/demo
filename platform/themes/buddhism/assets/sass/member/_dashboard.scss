@@ -1,0 +1,267 @@
+$banner-height: 416px;
+
+.personal--info {
+  .personal--info__banner {
+    height: calc($banner-height - 150px);
+    background: url('../images/banner-personal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(100% + 220px) center;
+
+    @media screen and (min-width: 992px) {
+      background-position: center;
+      height: $banner-height;
+    }
+  }
+
+  .personal--info--general {
+    bottom: -45px;
+
+    .avt {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      overflow: hidden;
+      border-radius: 100%;
+    }
+
+    .personal--info--general__name {
+      display: flex;
+      align-items: center;
+      color: white;
+      text-shadow: 0px 0px 20px rgba(63, 36, 6, 0.15);
+    }
+
+    @media screen and (min-width: 992px) {
+      bottom: -55px;
+
+      .avt {
+        position: relative;
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 100%;
+      }
+    }
+  }
+
+  .personal--info__merit-project {
+    padding: 3.5rem 1rem 0.5rem;
+
+    .total-project,
+    .total-amount {
+      text-align: end;
+    }
+
+    .total-project__value,
+    .total-amount__value {
+      color: var(--primary);
+    }
+
+    .total-project__title,
+    .total-amount__title {
+      color: #4d4c4c;
+    }
+
+    .personal-title {
+      display: flex;
+      align-items: end;
+      color: var(--primary);
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 4rem 1rem 1rem;
+      align-items: flex-start;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 3.5rem 1rem 1rem;
+      align-items: flex-end;
+    }
+  }
+}
+
+.personal--merit__tabs {
+  .nav-tabs {
+    border-bottom: none;
+
+    .nav-link {
+      color: var(--bs-primary);
+      font-size: 18px;
+
+      &.active {
+        background-color: #ffffff;
+        color: var(--bs-primary);
+        border-color: transparent;
+        font-weight: 700;
+      }
+
+      &:hover {
+        background-color: #ffffff;
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+.personal--merit__detail {
+  background: white;
+
+  table {
+    width: 100%;
+
+    thead {
+      tr {
+        background: rgba(89, 58, 36, 0.1);
+        border-radius: 8px;
+
+        th {
+          color: var(--primary);
+          padding: 16px;
+
+          &:first-child {
+            text-align: center;
+            width: 0px;
+            padding-left: 24px;
+          }
+
+          &:last-child {
+            text-align: right;
+            padding-right: 24px;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(89, 58, 36, 0.1);
+
+        th {
+          color: #4d4c4c;
+          text-align: center;
+          padding: 16px 16px 16px 24px;
+        }
+
+        td {
+          color: #4d4c4c;
+          padding: 16px;
+
+          &:last-child {
+            text-align: right;
+            padding-right: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .input-search {
+    padding-left: 0;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #ced4da;
+    }
+  }
+
+  .select-search {
+    border-color: var(--bs-body-bg);
+
+    &:focus {
+      box-shadow: none;
+      border-color: var(--bs-body-bg);
+    }
+  }
+}
+
+.personal--merit__nodata {
+  text-align: center;
+  padding: 112px 0px;
+  border-top: 1px solid rgba(89, 58, 36, 0.1);
+
+  .row {
+    justify-content: center;
+
+    .personal--merit__nodata__message {
+      color: var(--primary);
+      margin-bottom: 112px;
+    }
+
+    .personal--merit__nodata__button {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .personal--info {
+    .personal--info--general {
+      .personal--info--general__avatar {
+        display: flex;
+        justify-content: center;
+
+        //     .avt {
+        //         position: relative;
+        // height: 92px;
+        // width: 92px;
+        // overflow: hidden;
+        // border-radius: 100%;
+        //         img {}
+        //     }
+      }
+
+      .personal--info--general__name {
+        justify-content: center;
+      }
+    }
+
+    .personal--info__merit-project {
+      .total-project,
+      .total-amount {
+        text-align: start;
+      }
+    }
+  }
+
+  .personal--merit__nodata {
+    padding: 82px 0px;
+
+    .row {
+      .personal--merit__nodata__message {
+        margin-bottom: 82px;
+      }
+    }
+  }
+
+  .personal--merit__detail {
+    table {
+      thead {
+        tr {
+          th {
+            padding: 16px 0px;
+
+            &:first-child {
+              padding-left: 0px;
+            }
+
+            &:last-child {
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            &:last-child {
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

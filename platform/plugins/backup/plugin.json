@@ -1,0 +1,10 @@
+{
+    "id": "cmat/backup",
+    "name": "Backup",
+    "namespace": "Cmat\\Backup\\",
+    "provider": "Cmat\\Backup\\Providers\\BackupServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Backup & restore database, uploads folder"
+}

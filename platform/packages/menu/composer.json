@@ -1,0 +1,24 @@
+{
+    "name": "cmat/menu",
+    "description": "Menu package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Menu\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Menu\\Providers\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Cmat\\Menu\\Facades\\MenuFacade"
+            }
+        }
+    }
+}

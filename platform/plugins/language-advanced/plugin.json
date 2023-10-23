@@ -1,0 +1,11 @@
+{
+    "id": "cmat/language-advanced",
+    "name": "Language Advanced",
+    "namespace": "Cmat\\LanguageAdvanced\\",
+    "provider": "Cmat\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "1.2.0",
+    "description": "Advanced Multi-language",
+    "require": ["language"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "cmat/custom-fields",
+    "name": "Custom Fields",
+    "namespace": "Cmat\\CustomField\\",
+    "provider": "Cmat\\CustomField\\Providers\\CustomFieldServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Custom Fields"
+}

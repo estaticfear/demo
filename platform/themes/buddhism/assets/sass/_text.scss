@@ -1,0 +1,157 @@
+.h1 {
+  font-family: var(--primary-font) !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 56px !important;
+}
+
+.h2 {
+  font-family: var(--primary-font) !important;
+  color: var(--primary-color);
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 40px !important;
+  line-height: 48px !important;
+}
+
+.h3 {
+  font-family: var(--primary-font) !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px !important;
+  line-height: 40px;
+}
+
+.h4 {
+  font-family: var(--primary-font) !important;
+  color: var(--primary-color);
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 32px;
+}
+
+.h5 {
+  font-family: var(--primary-font) !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.h5-1 {
+  font-family: var(--primary-font) !important;
+  color: #1a1919;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 140%;
+}
+
+.description-article-text {
+  font-family: var(--primary-font) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 140%;
+}
+
+.sub-title-header-text {
+  font-family: var(--primary-font) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.sub-title-1__regular {
+  font-family: var(--primary-font) !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.body-1__semibold {
+  font-family: var(--primary-font) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.body-1__regular {
+  font-family: var(--primary-font) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.body-2__medium {
+  font-family: var(--primary-font) !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 140%;
+}
+
+.body-2__regular {
+  font-family: var(--primary-font) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 991px) {
+  .h1 {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+
+  .h3 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .h3 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+
+  .h4 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .h4 {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .body-1__semibold {
+    font-size: 18px !important;
+  }
+
+  .body-1__regular {
+    font-size: 16px !important;
+  }
+
+  .body-2__medium {
+    font-size: 16px !important;
+  }
+}
+
+@mixin font-size() {
+  $font-size-list: 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26;
+  @each $value in $font-size-list {
+    .fs-#{$value},
+    .fs-#{$value} > * {
+      font-size: #{$value}px !important;
+    }
+  }
+}
+
+@include font-size();

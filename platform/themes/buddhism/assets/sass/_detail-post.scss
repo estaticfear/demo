@@ -1,0 +1,32 @@
+.detail-post {
+    .news_social {
+        .title-share {
+            margin-bottom: 16px;
+        }
+    }
+}
+.section-button-share {
+    .btn-share {
+        padding: 8px 16px;
+        background: #0072f8;
+        border-radius: 8px;
+        .icon-facebook {
+            height: 32px;
+            width: 32px;
+        }
+        span {
+            color: #fff;
+        }
+    }
+    .btn-share-no-logo {
+        border: 1px solid var(--primary);
+        padding: 13px 20px 12px;
+        gap: 8px;
+        color: var(--primary);
+        width: 172px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,10 @@
+<?php
+
+namespace Cmat\{Module}\Repositories\Caches;
+
+use Cmat\Support\Repositories\Caches\CacheAbstractDecorator;
+use Cmat\{Module}\Repositories\Interfaces\{Name}Interface;
+
+class {Name}CacheDecorator extends CacheAbstractDecorator implements {Name}Interface
+{
+}

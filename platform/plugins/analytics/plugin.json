@@ -1,0 +1,10 @@
+{
+    "id": "cmat/analytics",
+    "name": "Analytics",
+    "namespace": "Cmat\\Analytics\\",
+    "provider": "Cmat\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Tracking data from Google Analytics"
+}

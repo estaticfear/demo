@@ -1,0 +1,21 @@
+.section-merit-guide {
+    line-height: 16px;
+
+    .step {
+        color: #593A24 !important;
+    }
+
+    p {
+        color: #1A1919 !important;
+    }
+
+    .merit-type {
+        color: #593A24 !important;
+    }
+
+}
+@media (max-width: 390px) {
+    .section-merit-guide{
+        
+    }
+}

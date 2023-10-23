@@ -1,0 +1,48 @@
+{
+  "name": "cmat/git-commit-checker",
+  "description": "Check coding standard & code syntax with Git pre-commit hook.",
+  "type": "package",
+  "license": "MIT",
+  "keywords": [
+    "cmat",
+    "cmat cms",
+    "cmat platform",
+    "cmat git commit checker"
+  ],
+  "homepage": "https://cmat.com",
+  "authors": [
+    {
+      "name": "COM DEV",
+      "email": "dev@comartek.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cmat\\GitCommitChecker\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cmat\\GitCommitChecker\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^8.0|^8.1|^8.2",
+    "laravel/framework": "^9.32|^10.0",
+    "laravel/pint": "^1.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cmat\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable"
+}

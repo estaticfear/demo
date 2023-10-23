@@ -1,0 +1,19 @@
+.section-cooperate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .section-cooperate__content {
+        text-align: center;
+        margin: 12px 0px;
+    }
+
+    .section-cooperate__action {
+        .section-cooperate__contact-us {
+            margin: 12px 0px;
+        }
+    }
+
+}

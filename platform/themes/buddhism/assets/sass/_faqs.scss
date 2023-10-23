@@ -1,0 +1,96 @@
+.section-faqs {
+    .first-and-second-content {
+        min-height: 300px;
+        .image-content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            border-radius: 16px;
+            img {
+                border-radius: 16px;
+            }
+        }
+        .text-content {
+            .title-content-section {
+                &::after {
+                    content: "";
+                    border-bottom: 4px solid #f5c330;
+                    width: 100px;
+                    display: block;
+                }
+                .title-content {
+                    color: var(--primary);
+                    text-transform: uppercase;
+                    padding-bottom: 24px;
+                    margin: 0;
+                }
+                padding-bottom: 24px;
+            }
+            .description-content {
+                color: #000000;
+                padding-bottom: 40px;
+                margin: 0;
+            }
+        }
+        .btn-btn {
+            padding: 13px 20px;
+            color: #ffffff;
+            border-radius: 8px;
+        }
+    }
+    .last-content {
+        padding-top: 40px;
+        .section-last-content-title {
+            .section-content-title {
+                width: 100px;
+                &::after {
+                    content: "";
+                    border-bottom: 4px solid #f5c330;
+                    width: 100px;
+                    display: block;
+                }
+                .last-content-title {
+                    margin: 0;
+                    color: var(--primary);
+                }
+            }
+        }
+        .section-faqs-items {
+            .faqs-item {
+                padding-bottom: 24px;
+                .title-faqs-item-content {
+                    color: #262626;
+                    padding-left: 16px;
+                    margin: 0;
+                    cursor: pointer;
+                }
+                .content-faqs-item-content {
+                    background: none;
+                    border: none;
+                    padding: 0;
+                    padding-top: 24px;
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-banner-top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+@media (max-width: 992px) {
+    .section-faqs {
+        .first-and-second-content {
+            padding-bottom: 40px;
+            .image-content {
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

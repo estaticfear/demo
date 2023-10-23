@@ -1,0 +1,10 @@
+{
+    "id": "cmat/request-log",
+    "name": "Request Log",
+    "namespace": "Cmat\\RequestLog\\",
+    "provider": "Cmat\\RequestLog\\Providers\\RequestLogServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Log error requests"
+}

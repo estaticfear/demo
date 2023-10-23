@@ -1,0 +1,10 @@
+{
+    "id": "cmat/blog",
+    "name": "Blog",
+    "namespace": "Cmat\\Blog\\",
+    "provider": "Cmat\\Blog\\Providers\\BlogServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Manage posts, categories, tags"
+}

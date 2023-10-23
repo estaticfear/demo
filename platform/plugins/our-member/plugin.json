@@ -1,0 +1,10 @@
+{
+    "id": "cmat/our-member",
+    "name": "OurMember",
+    "namespace": "Cmat\\OurMember\\",
+    "provider": "Cmat\\OurMember\\Providers\\OurMemberServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module our_member"
+}

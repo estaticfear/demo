@@ -1,0 +1,10 @@
+{
+    "id": "cmat/ecommerce",
+    "name": "Ecommerce",
+    "namespace": "Cmat\\Ecommerce\\",
+    "provider": "Cmat\\Ecommerce\\Providers\\EcommerceServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "3.0",
+    "description": "Plugin for E-commerce features"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "cmat/contact",
+    "name": "Contact Form",
+    "namespace": "Cmat\\Contact\\",
+    "provider": "Cmat\\Contact\\Providers\\ContactServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Contact Form"
+}

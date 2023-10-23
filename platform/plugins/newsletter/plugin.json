@@ -1,0 +1,10 @@
+{
+    "id": "cmat/newsletter",
+    "name": "Newsletter",
+    "namespace": "Cmat\\Newsletter\\",
+    "provider": "Cmat\\Newsletter\\Providers\\NewsletterServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Newsletter"
+}

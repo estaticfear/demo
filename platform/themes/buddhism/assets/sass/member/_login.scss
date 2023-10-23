@@ -1,0 +1,246 @@
+.section-login {
+    .login-form {
+        border: none;
+        background: #eeead8;
+        .title-login {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 140%;
+            color: var(--primary);
+            padding-bottom: 24px;
+            margin: 0;
+        }
+        .login-with-social {
+            min-height: 48px;
+            gap: 32px;
+            padding-bottom: 24px;
+            img {
+                border-radius: 12px;
+            }
+        }
+        .sub-text {
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            margin: 0;
+            padding-bottom: 25px;
+        }
+        .form-group {
+            label {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                text-transform: capitalize;
+                padding-bottom: 9px;
+            }
+            input {
+                height: 48px;
+                border: none;
+                border-radius: 8px;
+                padding: 11px 16px;
+                background-color: #fff;
+            }
+            .button-submit {
+                background: linear-gradient(
+                    180deg,
+                    #99633d 0%,
+                    var(--primary) 100%
+                );
+                border-color: #99633d !important;
+                &:hover {
+                    background: linear-gradient(
+                        180deg,
+                        #99633d 0%,
+                        var(--primary) 80%
+                    );
+                }
+                width: 100%;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                color: #f7f6f5;
+                border-radius: 8px;
+            }
+            #show_hide_password {
+                position: relative;
+                .input-group-addon {
+                    position: absolute;
+                    top: 14px;
+                    right: 12px;
+                }
+            }
+        }
+        .forget-pass-section {
+            padding-bottom: 20px;
+            .forget-pass {
+                color: var(--primary);
+            }
+        }
+        .sub-text-register {
+            padding-bottom: 20px;
+            .sub-text {
+                color: #1a1919;
+            }
+            span {
+                color: #1a1919;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+            .rules {
+                a {
+                    color: #0072f8;
+                }
+            }
+        }
+    }
+    .content-right {
+        position: relative;
+        display: flex;
+        align-items: center;
+        .content-right-image {
+            border-radius: 16px;
+            .content-right-text {
+                position: absolute;
+                top: 43%;
+                width: 100%;
+                .section-text {
+                    padding-bottom: 32px;
+                    .title-content {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 140%;
+                        color: #ffffff;
+                        margin: 0;
+                    }
+                }
+                .section-button {
+                    .btn-primary {
+                        border: none;
+                        padding: 13px 54px;
+                        background: #ffffff;
+                        border-radius: 8px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 140%;
+                        color: var(--primary);
+                    }
+                }
+            }
+        }
+    }
+}
+.img-7-5 {
+    padding-bottom: 71.42%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: -webkit-fill-available;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+.img-8-3 {
+    padding-bottom: 37.82%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: -webkit-fill-available;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+@media (max-width: 576px) {
+    .section-login {
+        .login-form {
+            .title-login {
+                font-size: 20px;
+            }
+            .login-with-social {
+                min-height: 16px;
+                gap: 16px;
+                padding-bottom: 16px;
+                img {
+                    border-radius: 8px;
+                }
+            }
+            .sub-text {
+                font-size: 14px;
+                padding-bottom: 17px;
+            }
+            .form-group {
+                label {
+                    font-size: 14px;
+                    padding-bottom: 6px;
+                }
+                input {
+                    height: 40px;
+                    padding: 10px 16px;
+                }
+                .button-submit {
+                    font-size: 14px;
+                }
+                #show_hide_password {
+                    .input-group-addon {
+                        top: 10px;
+                    }
+                }
+            }
+            .forget-pass-section {
+                padding-bottom: 16px;
+            }
+            .sub-text-register {
+                padding-bottom: 16px;
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+        .content-right-register {
+            margin-top: 0 !important;
+        }
+        .content-right {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            .content-right-image {
+                border-radius: 16px;
+                .content-right-text {
+                    position: absolute;
+                    top: 43%;
+                    width: 100%;
+                    .section-text {
+                        padding-bottom: 14px;
+                        .title-content {
+                            text-align: center;
+                            font-size: 16px;
+                        }
+                    }
+                    .section-button {
+                        .btn-primary {
+                            padding: 10px 32px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

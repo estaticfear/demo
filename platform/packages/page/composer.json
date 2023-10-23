@@ -1,0 +1,21 @@
+{
+    "name": "cmat/page",
+    "description": "Page package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Page\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/revision": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Page\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}

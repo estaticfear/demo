@@ -1,0 +1,20 @@
+{
+    "name": "cmat/optimize",
+    "description": "Optimize page speed package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Optimize\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Optimize\\Providers\\OptimizeServiceProvider"
+            ]
+        }
+    }
+}

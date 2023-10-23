@@ -1,0 +1,53 @@
+.section-about-us {
+    .content-left {
+        display: flex;
+        align-items: center;
+        min-height: 355px;
+
+        .image {
+            height: 100%;
+            width: 100%;
+            border-radius: 16px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+    }
+
+    .content-right {
+        .section-about-title {
+            color: #F5C330;
+            margin: 0;
+            padding-bottom: 16px;
+        }
+
+        .description-content {
+            .sub-title-header-text {
+                color: #ffffff;
+            }
+
+            padding-bottom: 26px;
+        }
+
+        .link-detail {
+            padding-left: 16px;
+            color: #F5C330;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 140%;
+        }
+    }
+}
+
+.carousel-logo__title {
+    color: #593a24 !important;
+}
+
+.slick-track {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}

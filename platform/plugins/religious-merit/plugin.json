@@ -1,0 +1,10 @@
+{
+    "id": "cmat/religious-merit",
+    "name": "ReligiousMerit",
+    "namespace": "Cmat\\ReligiousMerit\\",
+    "provider": "Cmat\\ReligiousMerit\\Providers\\ReligiousMeritServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module religious_merit"
+}

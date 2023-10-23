@@ -1,0 +1,10 @@
+<?php
+
+namespace Cmat\{Module}\Repositories\Eloquent;
+
+use Cmat\Support\Repositories\Eloquent\RepositoriesAbstract;
+use Cmat\{Module}\Repositories\Interfaces\{Name}Interface;
+
+class {Name}Repository extends RepositoriesAbstract implements {Name}Interface
+{
+}

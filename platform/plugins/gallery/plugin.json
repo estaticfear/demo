@@ -1,0 +1,10 @@
+{
+    "id": "cmat/gallery",
+    "name": "Gallery",
+    "namespace": "Cmat\\Gallery\\",
+    "provider": "Cmat\\Gallery\\Providers\\GalleryServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Create or easy to add gallery images to posts, pages..."
+}

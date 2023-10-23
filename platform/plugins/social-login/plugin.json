@@ -1,0 +1,10 @@
+{
+    "id": "cmat/social-login",
+    "name": "Social Login",
+    "namespace": "Cmat\\SocialLogin\\",
+    "provider": "Cmat\\SocialLogin\\Providers\\SocialLoginServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Easier and faster login with Facebook, LinkedIn, Github or Google."
+}

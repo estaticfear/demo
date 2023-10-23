@@ -1,0 +1,10 @@
+{
+    "id": "cmat/translation",
+    "name": "Translation",
+    "namespace": "Cmat\\Translation\\",
+    "provider": "Cmat\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Manage translation text"
+}

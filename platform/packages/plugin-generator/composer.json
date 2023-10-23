@@ -1,0 +1,21 @@
+{
+    "name": "cmat/plugin-generator",
+    "description": "Plugin generator",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\PluginGenerator\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/plugin-management": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\PluginGenerator\\Providers\\PluginGeneratorServiceProvider"
+            ]
+        }
+    }
+}

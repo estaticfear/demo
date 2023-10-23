@@ -1,0 +1,24 @@
+{
+    "name": "cmat/seo-helper",
+    "description": "SEO helper package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\SeoHelper\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\SeoHelper\\Providers\\SeoHelperServiceProvider"
+            ],
+            "aliases": {
+                "SeoHelper": "Cmat\\SeoHelper\\Facades\\SeoHelperFacade"
+            }
+        }
+    }
+}

@@ -1,0 +1,138 @@
+.section-main-title {
+    color: var(--primary);
+    padding-bottom: 6px;
+}
+.section-sub-title {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+    padding-bottom: 32px;
+}
+.section-articles {
+    .section-articles-content {
+        padding-bottom: 32px;
+    }
+    .section-articles-content {
+        .first-articles {
+            .article-item {
+                overflow: hidden;
+                min-height: 300px;
+                &:first-child {
+                    .article-image-wrap {
+                        margin-left: -0.75rem;
+                        padding-right: 0;
+                    }
+                }
+                .article-image {
+                    min-height: 300px;
+                    border-bottom-left-radius: 16px;
+                    border-top-left-radius: 16px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            .content-article {
+                border-top-right-radius: 16px;
+                border-bottom-right-radius: 16px;
+                .content-article-first {
+                    padding-top: 24px;
+                    padding-right: 24px;
+                    padding-bottom: 24px;
+                    .title-article {
+                        color: #593a24 !important;
+                    }
+                }
+            }
+        }
+        .second-articles {
+            min-height: 285px;
+            .article-item {
+                .article-image {
+                    border-top-right-radius: 16px;
+                    border-top-left-radius: 16px;
+                }
+                .content-article {
+                    padding: 16px;
+                    padding-bottom: 36px;
+                    border-bottom-right-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                }
+            }
+        }
+        .article-item {
+            box-shadow: 0px 0px 20px 0px #3f240626;
+            border-radius: 16px;
+            .content-article {
+                .title-article {
+                    color: #1a1919;
+                    display: -webkit-box;
+                    max-width: 100%;
+                    max-height: 55px;
+                    margin: 0 auto;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin-bottom: 8px;
+                }
+                .description-article {
+                    color: #807f7e;
+                    display: -webkit-box;
+                    max-width: 100%;
+                    max-height: 70px;
+                    margin: 0 auto;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin-bottom: 26px;
+                }
+                .link-detail {
+                    padding-left: 16px;
+                    color: var(--primary);
+                    font-family: "Roboto Slab";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+    .section-btn-show-all {
+        display: flex;
+        justify-content: center;
+        a {
+            .btn-show-all {
+                padding: 13px 20px;
+                width: 160px;
+                height: 48px;
+                border-radius: 8px;
+                border: 1px solid #99633d;
+                span {
+                    color: #99633d;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .content-article-first {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        padding-bottom: 36px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-articles {
+        .article-image {
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 16px;
+        }
+    }
+}

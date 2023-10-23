@@ -1,0 +1,93 @@
+{
+    "name": "cmat/platform",
+    "description": "The Cmat Platform based on Laravel Framework.",
+    "keywords": [
+        "cmat",
+        "cmat cms",
+        "cmat platform"
+    ],
+    "homepage": "https://cmat.com",
+    "support": {
+        "issues": "https://cmat.ticksy.com",
+        "document": "https://docs.cmat.com"
+    },
+    "authors": [
+        {
+            "name": "Cmat Technologies",
+            "email": "contact@cmat.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "barryvdh/laravel-dompdf": "^2.0",
+        "cmat/assets": "*@dev",
+        "intervention/image": "^2.6",
+        "kris/laravel-form-builder": "dev-master",
+        "laravelcollective/html": "^6.2",
+        "xantios/mimey": "^2.2",
+        "tightenco/ziggy": "^1.4",
+        "yajra/laravel-datatables-buttons": "^9.1",
+        "yajra/laravel-datatables-oracle": "^10.2",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "mews/purifier": "^3.3",
+        "maatwebsite/excel": "^3.1",
+        "symfony/http-client": "^6.0",
+        "symfony/postmark-mailer": "^6.0",
+        "symfony/mailgun-mailer": "^6.0",
+        "twig/twig": "^3.0",
+        "doctrine/dbal": "^3.2",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Support\\": "support/src",
+            "Cmat\\ACL\\": "acl/src",
+            "Cmat\\Base\\": "base/src",
+            "Cmat\\Base\\Tests\\": "base/tests",
+            "Cmat\\Dashboard\\": "dashboard/src",
+            "Cmat\\Media\\": "media/src",
+            "Cmat\\Setting\\": "setting/src",
+            "Cmat\\Table\\": "table/src",
+            "Cmat\\JsValidation\\": "js-validation/src",
+            "Cmat\\Chart\\": "chart/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Base\\Providers\\BaseServiceProvider",
+                "Cmat\\Base\\Providers\\CommandServiceProvider",
+                "Cmat\\Base\\Providers\\EventServiceProvider",
+                "Cmat\\Base\\Providers\\BreadcrumbsServiceProvider",
+                "Cmat\\Base\\Providers\\ComposerServiceProvider",
+                "Cmat\\Base\\Providers\\MailConfigServiceProvider",
+                "Cmat\\Base\\Providers\\FormServiceProvider",
+                "Cmat\\Support\\Providers\\SupportServiceProvider",
+                "Cmat\\Table\\Providers\\TableServiceProvider",
+                "Cmat\\ACL\\Providers\\AclServiceProvider",
+                "Cmat\\Dashboard\\Providers\\DashboardServiceProvider",
+                "Cmat\\Media\\Providers\\MediaServiceProvider",
+                "Cmat\\JsValidation\\Providers\\JsValidationServiceProvider",
+                "Cmat\\Chart\\Providers\\ChartServiceProvider"
+            ],
+            "aliases": {
+                "Assets": "Cmat\\Base\\Facades\\AssetsFacade",
+                "MetaBox": "Cmat\\Base\\Facades\\MetaBoxFacade",
+                "Action": "Cmat\\Base\\Facades\\ActionFacade",
+                "Filter": "Cmat\\Base\\Facades\\FilterFacade",
+                "EmailHandler": "Cmat\\Base\\Facades\\EmailHandlerFacade",
+                "Breadcrumbs": "Cmat\\Base\\Facades\\BreadcrumbsFacade",
+                "MacroableModels": "Cmat\\Base\\Facades\\MacroableModelsFacade",
+                "JsValidator": "Cmat\\JsValidation\\Facades\\JsValidatorFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../packages/*"
+        }
+    ]
+}

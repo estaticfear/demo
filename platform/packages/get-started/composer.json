@@ -1,0 +1,18 @@
+{
+    "name": "cmat/get-started",
+    "description": "Make site ready in few steps",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\GetStarted\\": "src"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\GetStarted\\Providers\\GetStartedServiceProvider"
+            ]
+        }
+    }
+}

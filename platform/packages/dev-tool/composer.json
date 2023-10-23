@@ -1,0 +1,20 @@
+{
+    "name": "cmat/dev-tool",
+    "description": "Dev tools package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\DevTool\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\DevTool\\Providers\\DevToolServiceProvider"
+            ]
+        }
+    }
+}

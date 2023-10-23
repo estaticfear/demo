@@ -1,0 +1,144 @@
+.contact-page__googlemap {
+    height: 600px !important;
+}
+
+.contact-page__information {
+    .contact-form-fields__submit {
+        display: flex;
+        justify-content: center;
+
+        .submit-button {
+            padding: 13px 20px;
+            width: 38%;
+            height: 48px;
+        }
+    }
+
+    .contact-form-fields__input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 33px;
+
+        label {
+            color: #1a1919 !important;
+            margin-bottom: 9px;
+        }
+
+        .input_field {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 14px 16px;
+            gap: 8px;
+            width: 100%;
+            background: #ffffff;
+            border: 1px solid #f0efed;
+            border-radius: 8px;
+        }
+
+        #contact_content {
+            height: 98px;
+        }
+    }
+
+    .contact-page__title {
+        color: #593a24 !important;
+    }
+
+    .contact-page__subtitle {
+        color: #1a1919 !important;
+        padding-bottom: 16px;
+        padding-top: 8px;
+    }
+
+    .contact-page__content {
+        display: flex;
+        flex-direction: column;
+        color: #1a1919 !important;
+
+        div {
+            display: flex;
+            align-items: center;
+            padding: 16px 0px;
+
+            span {
+                padding-bottom: 8px;
+            }
+        }
+
+        &::before {
+            color: var(--primary);
+            width: 40px;
+            height: 40px;
+        }
+
+        .phone {
+            display: flex;
+            flex-direction: row;
+
+            span {
+                &:first-child {
+                    &::after {
+                        content: "-";
+                        padding: 0px 5px;
+                    }
+                }
+            }
+
+            &::before {
+                content: url("../images/icons/contact-hotline.svg");
+                padding-right: 16px !important;
+            }
+        }
+
+        .email {
+            &::before {
+                content: url("../images/icons/contact-email.svg");
+                padding-right: 16px !important;
+            }
+        }
+
+        .address {
+            display: flex;
+            flex-direction: row;
+
+            .address-list {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            &::before {
+                content: url("../images/icons/contact-address.svg");
+                padding-right: 16px !important;
+            }
+        }
+    }
+
+    .contact-form__message {
+        margin-top: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-page__information {
+        padding: 32px 0px;
+
+        .contact-form-fields__submit {
+            display: flex;
+            justify-content: center;
+
+            .submit-button {
+                margin-top: 15px;
+            }
+        }
+
+        .contact-form__message {
+            margin-top: 15px;
+        }
+    }
+}

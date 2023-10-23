@@ -1,0 +1,21 @@
+{
+    "name": "cmat/widget-generator",
+    "description": "Widget generator",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\WidgetGenerator\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev",
+        "cmat/widget": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\WidgetGenerator\\Providers\\WidgetGeneratorServiceProvider"
+            ]
+        }
+    }
+}

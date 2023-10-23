@@ -1,0 +1,10 @@
+{
+    "id": "cmat/simple-slider",
+    "name": "Simple Slider",
+    "namespace": "Cmat\\SimpleSlider\\",
+    "provider": "Cmat\\SimpleSlider\\Providers\\SimpleSliderServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "A plugin to create sliders"
+}

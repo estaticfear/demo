@@ -1,0 +1,20 @@
+{
+    "name": "cmat/shortcode",
+    "description": "Shortcode package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Cmat\\Shortcode\\": "src"
+        }
+    },
+    "require": {
+        "cmat/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmat\\Shortcode\\Providers\\ShortcodeServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "cmat/audit-log",
+    "name": "Audit Log",
+    "namespace": "Cmat\\AuditLog\\",
+    "provider": "Cmat\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "Cmat Technologies",
+    "url": "https://cmat.com",
+    "version": "2.0",
+    "description": "Record activities logs"
+}
